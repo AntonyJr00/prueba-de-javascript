@@ -24,7 +24,7 @@ function eventoAnual(a) {
 eventoAnual(1000);
 
 //ejercicio3
-function eventoAnual(a, b, c) {
+function recaudado(a, b, c) {
   const EGeneral = 150;
   const EMayores = 50;
   const EMenores = 80;
@@ -37,4 +37,4 @@ function eventoAnual(a, b, c) {
     `Las entradas generales vendidas son de: ${generalTotal}soles, las entradas para mayores vendidas son de: ${mayoresTotal}soles, las entradas para menores vendidas son de: ${menoresTotal}soles y entre todos el TOTAl es de: ${totalVentas}soles`
   );
 }
-eventoAnual(10, 20, 5);
+recaudado(10, 20, 5);
